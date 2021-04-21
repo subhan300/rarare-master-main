@@ -1,0 +1,69 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* position */
+
+.position_relative {
+  position: relative;
+}
+
+/* background colors */
+
+.bg_lightgreen {
+  background-color: #20c0a0;
+}
+
+.bg_blue {
+  background-color: #014c9d;
+}
+
+.bg_red {
+  background-color: #dc4b3b;
+}
+
+.bg_white{
+  background-color: white;
+}
+
+/* text colors */
+
+.text_darkblue {
+  color: #001758 !important;
+}
+
+.text_bluegreen {
+  color: #19c2a0;
+}
+
+.text_lightgray {
+  color: #8792af;
+}
+
+.text_lightpurple {
+  color: #9ba3cc !important;
+}
+
+/* border color */
+
+.bluegreen_border {
+  border-color: #20c0a0 !important;
+}
+
+.gray_border {
+  border-color: #80808066 !important;
+}
+
+.border_none {
+  border: none !important;
+}
