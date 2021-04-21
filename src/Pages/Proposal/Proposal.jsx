@@ -19,7 +19,7 @@ function Proposal() {
                    <div className="proposal_card_div">
                        <Card className="Proposal_card">
                         <div className="card_content"> <h4>Need A New Raod In Nigeria...</h4>
-                        <p><FlagIcon /></p>
+                        <p><FlagIcon style={{color:"red"}} /></p>
                         
                         </div>
                          <p>May 1 ,2020</p>
