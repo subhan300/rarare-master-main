@@ -36,6 +36,10 @@ body {
   background-color: white;
 }
 
+.bg_lightgray{
+  background-color: #8792af;
+}
+
 /* text colors */
 
 .text_darkblue {

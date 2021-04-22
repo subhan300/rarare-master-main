@@ -14,6 +14,8 @@ import location from "../../Assets/Icon material-location-on.png"
 import userImage from "../../Assets/Ellipse 226.png"
 import flagImage from "../../Assets/Component 27 – 1.png"
 import shareIcon from "../../Assets/Icon awesome-share.png"
+import ProposalRightComponent from "./ProposalRightComponent/ProposalRightComponent"
+import ProposalRighBottom from "./ProposalRightComponent/ProposalRightBottom"
 function Proposal() {
     return (
         <div className="Proposal">
@@ -66,9 +68,14 @@ function Proposal() {
  {/* right section  */}
             <div className="Proposal_content_right">
                 
-            {/* <ProposalComponentRight /> */}
+                <ProposalRightComponent />
+                <div>
+                  <ProposalRighBottom />
+               </div>
           
             </div>
+
+           
             
         </div>
     )

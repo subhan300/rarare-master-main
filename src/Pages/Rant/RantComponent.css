@@ -51,11 +51,14 @@
 }
 
 .btn1:focus{
-background-color: #45C1A1!important
+background-color: #45C1A1!important;color:white
 }
-.btn_same2:focus{background-color: #45C1A1!important;}
+.btn_same2:focus{background-color: #45C1A1!important;color:white}
 .btn_same:focus{
-    background-color: #45C1A1!important;
+    background-color: #45C1A1!important;color:white
+}
+.icon_responsive:focus{
+     color:white
 }
 .btn_same,.btn1{
     width:130px

@@ -9,6 +9,7 @@ import shareIcon from "../../../Assets/Icon awesome-share.png"
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
 import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
+
 function proposal_component() {
     return (
         <div className="proposal_component_card">

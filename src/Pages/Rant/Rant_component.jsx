@@ -9,14 +9,16 @@ import shareIcon from "../../Assets/Icon awesome-share.png"
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
 import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
+
+import {FaShare } from "react-icons/fa";
 function proposal_component() {
     return (
         <div className="proposal_component_card">
            <Card className="proposalComponent_card"style={{backgroundColor:"#F5F5F9",boxShadow:"1px -1px 10px -3px #ccc"}} >
                <div className="proposalComponent_card_content">
-                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn1"><FavoriteOutlinedIcon className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}}/>&nbsp;Like</Button>
-                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn_same2"><ChatBubbleIcon className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}} />&nbsp;Comments</Button>
-                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn_same"><img className="icon_responsive" style={{width:"14px"}} src={shareIcon} ></img> &nbsp;Share</Button>
+                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn1"><FavoriteOutlinedIcon id="btn-change-color"  className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}}/>&nbsp;Like</Button>
+                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn_same2"><ChatBubbleIcon  id="btn-change-color" className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}} />&nbsp;Comments</Button>
+                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn_same"><FaShare  id="btn-change-color" className="icon_responsive" style={{width:"14px",color:"#D3D3D3"}} ></FaShare > &nbsp;Share</Button>
           
                 </div>
                 <div className="card_content_component"> 
