@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ProposalComonentRight.css"
+import "./RantComponentRight.css"
 import image from "../../../Assets/Rectangle 108.png";
 import image1 from "../../../Assets/Rectangle 111.png";
 import image2 from "../../../Assets/Rectangle 110.png";
@@ -17,15 +17,15 @@ function ProposalComponentRight() {
     <button type="button"  className="rounded-circle" style={{borderRadius:"50px 50px 50px 50px ",height:"10px",width:"10px"}} data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
    
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner" >
     <div class="carousel-item active">
       <img src={image} class="d-block img-fluid" style={{width:"100%",height:"70vh"}} alt="..." />
     </div>
     <div class="carousel-item">
-      <img src={image2}   class="d-block w-100" alt="..." />
+      <img src={image}   class="d-block w-100" alt="..." />
     </div>
     <div class="carousel-item">
-      <img src={image3}  class="d-block w-100" alt="..." />
+      <img src={image}  class="d-block w-100" alt="..." />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -44,6 +44,12 @@ function ProposalComponentRight() {
                     <img className="slider_down_image1"  src={image1}></img>
                     <img className="slider_down_image1"  src={image2}></img>
                     <img className="slider_down_image1"  src={image3}></img>
+                   
+                </div>
+                <div className="slider_down_border" style={{display:"flex",}}>
+                    <img className="slider_down_image1"  src={image1}></img>
+                    <img className="slider_down_image1"  src={image2}></img>
+                
                 </div>
              
 

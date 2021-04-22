@@ -14,8 +14,8 @@ import Blog from "../Pages/blogs/blog";
 import SelectBlog from "../Pages/blogs/oneBlogPage";
 import PostHome from "../Pages/Post/PostHome";
 import PostReport from "../Pages/Post/PostReport";
+import Rant from "../Pages/Rant/Rant"
 import Proposal from "../Pages/Proposal/Proposal"
-
 const Routes = () => {
   return (
     <React.Fragment>
@@ -43,6 +43,9 @@ const Routes = () => {
           </Route>
           <Route exact path="/post-report">
             <PostReport />
+          </Route>
+          <Route exact path="/rant">
+            <Rant />
           </Route>
           <Route exact path="/Proposal">
             <Proposal />
