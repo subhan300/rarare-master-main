@@ -10,6 +10,7 @@ import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
 import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
 
+
 import {FaShare } from "react-icons/fa";
 function proposal_component() {
     function defaultColor1(){
@@ -51,14 +52,13 @@ function proposal_component() {
                 
                 
                 
-                  <form id="btnp"> 
-                  <Button  variant="contained" style={{backgroundColor:"white"}} className="btn_same" onMouseOut={()=>{defaultColor()}} onFocus={()=>{changeColor()}} >
+                  
+                  <Button  variant="contained" style={{backgroundColor:"white"}} className="btn_same"  >
                       <FaShare  id="btn-change-color3" className="icon_responsive"  style={{width:"14px",color:"#D3D3D3"}} >
                       </FaShare > 
                             &nbsp;Share
                  </Button>
-                  </form>
-          
+                
 
 
 

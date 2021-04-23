@@ -14,6 +14,7 @@ import location from "../../Assets/Icon material-location-on.png"
 import userImage from "../../Assets/Ellipse 226.png"
 import flagImage from "../../Assets/Component 27 – 1.png"
 import shareIcon from "../../Assets/Icon awesome-share.png"
+import Modal from "../../Components/Modal/Modal"
 function Proposal() {
     return (
         <div className="Proposal">
@@ -22,7 +23,9 @@ function Proposal() {
                    <div className="proposal_card_div">
                        <Card className="Proposal_card">
                         <div className="card_content"> <h4 className="title_responsive" style={{fontSize:"1.5rem",color:"#45C1A1"}}>Need A New Road In Nigeria...</h4>
-                        <p><img src={flagImage} ></img></p>
+                  
+                        <p>   <Modal /></p>
+                     
                         
                         </div>
                          <p className="text_size_responsive">May 1 ,2020</p>
