@@ -12,14 +12,62 @@ import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
 
 import {FaShare } from "react-icons/fa";
 function proposal_component() {
+    function defaultColor1(){
+        document.getElementById("btn-change-color1").style.color="#D3D3D3"
+     }
+    function changeColor1(){
+     document.getElementById("btn-change-color1").style.color="white"
+    }
+    
+    function defaultColor2(){
+        document.getElementById("btn-change-color2").style.color="#D3D3D3"
+     }
+    function changeColor2(){
+     document.getElementById("btn-change-color2").style.color="white"
+    }
+    
+
+    function defaultColor(){
+       document.getElementById("btn-change-color3").style.color="#D3D3D3"
+    }
+  function changeColor(){
+    document.getElementById("btn-change-color3").style.color="white"
+  }
+
+
+
     return (
         <div className="proposal_component_card">
            <Card className="proposalComponent_card"style={{backgroundColor:"#F5F5F9",boxShadow:"1px -1px 10px -3px #ccc"}} >
                <div className="proposalComponent_card_content">
-                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn1"><FavoriteOutlinedIcon id="btn-change-color"  className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}}/>&nbsp;Like</Button>
-                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn_same2"><ChatBubbleIcon  id="btn-change-color" className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}} />&nbsp;Comments</Button>
-                  <Button variant="contained" style={{backgroundColor:"white"}} className="btn_same"><FaShare  id="btn-change-color" className="icon_responsive" style={{width:"14px",color:"#D3D3D3"}} ></FaShare > &nbsp;Share</Button>
+                  <Button  onMouseOut={()=>{defaultColor2()}} onFocus={()=>{changeColor2()}}  variant="contained" style={{backgroundColor:"white"}} className="btn1">
+                      <FavoriteOutlinedIcon id="btn-change-color2"  className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}}/>&nbsp;Like</Button>
+                  <Button  onMouseOut={()=>{defaultColor1()}} onFocus={()=>{changeColor1()}}  variant="contained" style={{backgroundColor:"white"}} className="btn_same2">
+                      <ChatBubbleIcon  id="btn-change-color1" className="icon_responsive" style={{color:"#D3D3D3",fontSize:"19px"}} />&nbsp;Comments</Button>
+                 
+                 
+                
+                
+                
+                
+                
+                  <form id="btnp"> 
+                  <Button  variant="contained" style={{backgroundColor:"white"}} className="btn_same" onMouseOut={()=>{defaultColor()}} onFocus={()=>{changeColor()}} >
+                      <FaShare  id="btn-change-color3" className="icon_responsive"  style={{width:"14px",color:"#D3D3D3"}} >
+                      </FaShare > 
+                            &nbsp;Share
+                 </Button>
+                  </form>
           
+
+
+
+
+
+
+
+
+
                 </div>
                 <div className="card_content_component"> 
                           {[1,2,3].map(val=>{return(

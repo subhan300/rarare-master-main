@@ -2,18 +2,15 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
 const data = {
-  labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+  labels: ['Option A', 'Option B', 'Option  C'],
   datasets: [
     {
-      label: '# of Votes',
-      data: [12, 19, 3, 5, 2, 3],
+      label: ' ',
+      data: [20, 69, 80,],
       backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)',
+       "#46C2A1",
+       "#597AFA",
+       "#EDA137"
       ],
       borderColor: [
         'rgba(255, 99, 132, 1)',
@@ -23,13 +20,13 @@ const data = {
         'rgba(153, 102, 255, 1)',
         'rgba(255, 159, 64, 1)',
       ],
-      borderWidth: 1,
+      // border:2,
     },
   ],
 };
 
 const options = {
-  indexAxis: 'y',
+  indexAxis: 'x',
   // Elements options apply to all of the options unless overridden in a dataset
   // In this case, we are setting the border of each horizontal bar to be 2px wide
   elements: {
@@ -43,7 +40,7 @@ const options = {
       position: 'right',
     },
     title: {
-      display: true,
+      display: false,
       text: 'Chart.js Horizontal Bar Chart',
     },
   },
@@ -51,18 +48,10 @@ const options = {
 
 const HorizontalBarChart = () => (
   <>
-    <div className='header'>
-      <h1 className='title'>Horizontal Bar Chart</h1>
-      <div className='links'>
-        <a
-          className='btn btn-gh'
-          href='https://github.com/reactchartjs/react-chartjs-2/blob/react16/example/src/charts/HorizontalBar.js'
-        >
-          Github Source
-        </a>
-      </div>
-    </div>
-    <Bar data={data} options={options} />
+   
+   <div >
+       <Bar style={{fontSize:"20px"}}   data={data} />
+   </div>
   </>
 );
 

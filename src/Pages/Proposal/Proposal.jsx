@@ -13,6 +13,8 @@ import ProposalComponent from "./ProposalComponent/ProposalComponent"
 import location from "../../Assets/Icon material-location-on.png"
 import userImage from "../../Assets/Ellipse 226.png"
 import flagImage from "../../Assets/Component 27 – 1.png"
+import ideaIcon from "../../Assets/Component 22 – 2.png"
+import handIcon from "../../Assets/Icon awesome-hand-paper.png"
 import shareIcon from "../../Assets/Icon awesome-share.png"
 import ProposalRightComponent from "./ProposalRightComponent/ProposalRightComponent"
 import ProposalRighBottom from "./ProposalRightComponent/ProposalRightBottom"
@@ -30,7 +32,7 @@ function Proposal() {
                        
                          <div className="card_content">
 
-                             <p className="title_responsive" style={{color:"black",fontSize:"16px"}}> <span><img  className="icon_size_responsive" src={location} ></img></span>   Consenus Forming    <span><img  className="icon_size_responsive" src={location} ></img></span></p>
+                             <p className="title_responsive" style={{color:"black",fontSize:"16px"}}> <span style={{backgroundColor:"#E1E3F0",paddingLeft:"6px",paddingRight:"6px"}}><img  className="icon_size_responsive" src={handIcon} ></img></span>&nbsp;   Consenus Forming &nbsp;<span ><img  className="icon_size_responsive" src={ideaIcon} ></img></span></p>
                           
                         
                         

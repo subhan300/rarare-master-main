@@ -51,15 +51,13 @@
 }
 
 .btn1:focus{
-background-color: #45C1A1!important;color:white
+background-color: #45C1A1!important;color:white !important;
 }
-.btn_same2:focus{background-color: #45C1A1!important;color:white}
+.btn_same2:focus{background-color: #45C1A1!important;color:white !important;}
 .btn_same:focus{
-    background-color: #45C1A1!important;color:white
+    background-color: #45C1A1!important;color:white !important;
 }
-.icon_responsive:focus{
-     color:white
-}
+
 .btn_same,.btn1{
     width:130px
 }

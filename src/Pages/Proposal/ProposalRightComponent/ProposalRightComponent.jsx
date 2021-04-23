@@ -8,7 +8,7 @@ function ProposalRightComponent() {
         <div className="proposalRightComponent">
            <Card className="card">
                <h4 >Result</h4>
-               <div>sjsj</div>
+            
                <Chart />
            </Card>
         </div>
