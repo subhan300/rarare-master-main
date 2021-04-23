@@ -9,7 +9,7 @@ import shareIcon from "../../Assets/Icon awesome-share.png"
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
 import ChatBubbleIcon from '@material-ui/icons/ChatBubble';
-
+import Modal from "../../Components/Modal/Modal"
 
 import {FaShare } from "react-icons/fa";
 function proposal_component() {
@@ -53,7 +53,7 @@ function proposal_component() {
                 
                 
                   
-                  <Button  variant="contained" style={{backgroundColor:"white"}} className="btn_same"  >
+                  <Button onMouseOut={()=>{defaultColor()}} onFocus={()=>{changeColor()}}  variant="contained" style={{backgroundColor:"white"}} className="btn_same"  >
                       <FaShare  id="btn-change-color3" className="icon_responsive"  style={{width:"14px",color:"#D3D3D3"}} >
                       </FaShare > 
                             &nbsp;Share

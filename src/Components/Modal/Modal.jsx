@@ -26,8 +26,8 @@ function Modal() {
               </div>
          
 
-           <div className="text-center" style={{display:"flex",justifyContent:"center"}}>
-           <select class="form-select text-center" aria-label="Default select example" style={{width:"70%"}}>
+           <div className="text-center" style={{display:"flex",justifyContent:"center"}} >
+           <select class="form-select text-center " aria-label="Default select example" style={{width:"70%",border:"2px solid green !important"}}>
   <option selected>Select a reason</option>
   <option value="1">One</option>
   <option value="2">Two</option>
