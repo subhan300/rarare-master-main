@@ -1,8 +1,9 @@
-.Proposal{
+.Rant{
     display:flex;
     justify-content:center;
     /* border:2px solid blue; */
-    flex-wrap:wrap-reverse
+    flex-wrap:wrap-reverse;
+   
 }
 
 .Proposal_content_left{

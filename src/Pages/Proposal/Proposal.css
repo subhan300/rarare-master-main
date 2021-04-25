@@ -2,7 +2,7 @@
     /* border:2px solid green; */
     padding-top:70px;
 }
-
+.Proposal{display: flex;flex-wrap: wrap;justify-content:center;}
 
 .slider{
     width:86%;
@@ -43,4 +43,40 @@
    .proposal_component_right{border:1px solid blue;;}
    .carousel-control-prev-icon{margin-left: 22px!important;}
 
+  }
+
+  @media only screen and (max-width: 357px) {
+.Proposal{width:280px;justify-content: center;}
+.proposal_component_right{
+  text-align: center;
+
+}
+.Proposal_title{
+    justify-content: center;
+    
+    display:flex;
+ 
+}
+
+.btn{
+    width:90%;
+    font-size:11px;
+}
+.title_responsive{font-size: 3rem;}
+
+.proposal_card_div{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    width:90%;
+    margin-left: 14%;
+    
+}
+
+.proposal_component_main{
+    display:flex;
+    text-align: center;
+    margin-left: 10%;
+
+}
   }

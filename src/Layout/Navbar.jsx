@@ -12,7 +12,7 @@ import LanguageDropdown from "../Components/Dropdown/LanguageDropdown.jsx";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand-lg c_navbar">
+      {/* <nav className="navbar navbar-expand-lg c_navbar">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img className="nav_rarare_logo" src={rarareLogo} alt="logo" />
@@ -104,7 +104,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </React.Fragment>
   );
 };

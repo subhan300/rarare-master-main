@@ -44,3 +44,20 @@
    .carousel-control-prev-icon{margin-left: 22px!important;}
 
   }
+
+
+
+@media only screen and (max-width: 1105px) {
+    .carousel-inner,#carouselExampleIndicators{text-align: center!important;margin-left: 12px;margin-right: 5px;}
+   .proposal_component_right{border:1px solid blue;;}
+   .carousel-control-prev-icon{margin-left: 22px!important;}
+
+  }
+
+
+/* @media only screen and (max-width: 1105px) {
+    .carousel-inner,#carouselExampleIndicators{width: 900px !important;text-align: center!important;margin-left: 12px;margin-right: 5px;}
+   .proposal_component_right{border:1px solid blue;;}
+   .carousel-control-prev-icon{margin-left: 22px!important;}
+
+  } */

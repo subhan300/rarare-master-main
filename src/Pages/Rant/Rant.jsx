@@ -17,9 +17,14 @@ import shareIcon from "../../Assets/Icon awesome-share.png"
 import Modal from "../../Components/Modal/Modal"
 function Proposal() {
     return (
-        <div className="Proposal">
+     <>
+          <div className="Proposal_title d-flex align-items-start justify-content-start mt-3" style={{marginLeft:"12px"}}>
+              <p className="Proposal_left_title">Search Result > <span className="Proposal_left_titleSpan">Rant</span></p>
+          </div>                 
+           <div className="Rant">
+
             <div className="Proposal_content_left">
-                   <div className="Proposal_title"><p className="Proposal_left_title">Search Result > <span className="Proposal_left_titleSpan">Rant</span></p></div>
+              
                    <div className="proposal_card_div">
                        <Card className="Proposal_card">
                         <div className="card_content"> <h4 className="title_responsive" style={{fontSize:"1.5rem",color:"#45C1A1"}}>Need A New Road In Nigeria...</h4>
@@ -65,6 +70,9 @@ function Proposal() {
             </div>
             
         </div>
+
+
+     </>
     )
 }
 

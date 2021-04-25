@@ -15,7 +15,7 @@ const Footer = () => {
   let history = useHistory();
   return (
     <React.Fragment>
-      <div className="footer">
+      {/* <div className="footer">
         <div className="footer_container">
           <div className="fc_1">
             <div className="text_darkblue">
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };

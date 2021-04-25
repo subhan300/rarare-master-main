@@ -19,13 +19,13 @@ function ProposalComponentRight() {
   </div>
   <div class="carousel-inner" >
     <div class="carousel-item active">
-      <img src={image} class="d-block img-fluid" style={{width:"100%",height:"70vh"}} alt="..." />
+      <img src={image} class="d-block img-fluid"  alt="..." />
     </div>
     <div class="carousel-item">
-      <img src={image}   class="d-block w-100" alt="..." />
+      <img src={image}   class="d-block w-100 img-fluid" alt="..." />
     </div>
     <div class="carousel-item">
-      <img src={image}  class="d-block w-100" alt="..." />
+      <img src={image}  class="d-block w-100 img-fluid" alt="..." />
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -40,7 +40,7 @@ function ProposalComponentRight() {
              </div>
         
             <div className="slider_down_images">
-                <div className="slider_down_border" style={{display:"flex",}}>
+                {/* <div className="slider_down_border" style={{display:"flex",}}>
                     <img className="slider_down_image1"  src={image1}></img>
                     <img className="slider_down_image1"  src={image2}></img>
                     <img className="slider_down_image1"  src={image3}></img>
@@ -51,9 +51,26 @@ function ProposalComponentRight() {
                     <img className="slider_down_image1"  src={image2}></img>
                 
                 </div>
-             
+              */}
 
             </div>
+
+            <div className="image_gallery">
+                 <div className="row">
+                      <div className=" col-md-6 col-lg-4">
+                          <img   class="img-fluid" src={image1}></img>
+                      </div>   
+                      <div className=" col-md-6 col-lg-4">
+                          <img  class="img-fluid"  src={image1}></img>
+                      </div>   
+                      <div className=" col-md-6 col-lg-4">
+                          <img  class="img-fluid"  src={image1}></img>
+                      </div>    
+                      
+                 </div>
+            </div>
+
+
         </div>
 
 
