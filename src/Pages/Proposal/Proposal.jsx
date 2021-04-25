@@ -32,7 +32,7 @@ function Proposal() {
                        
                          <div className="card_content">
 
-                             <p className="title_responsive" style={{color:"black",fontSize:"16px"}}> <span style={{backgroundColor:"#E1E3F0",paddingLeft:"6px",paddingRight:"6px"}}><img  className="icon_size_responsive" src={handIcon} ></img></span>&nbsp;   Consenus Forming &nbsp;<span ><img  className="icon_size_responsive" src={ideaIcon} ></img></span></p>
+                             <p id="title_responsive" style={{color:"black",fontSize:"16px"}}> <span style={{backgroundColor:"#E1E3F0",paddingLeft:"6px",paddingRight:"6px"}}><img  className="icon_size_responsive" src={handIcon} ></img></span>&nbsp;   Consenus Forming &nbsp;<span ><img  className="icon_size_responsive" src={ideaIcon} ></img></span></p>
                           
                         
                         
