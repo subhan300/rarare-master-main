@@ -1,4 +1,4 @@
-.proposal_component_right{
+.Rant_component_right{
     /* border:2px solid green; */
     padding-top:70px;
 }
@@ -32,7 +32,7 @@
          border:2px solid green */
     }
 
-      .proposal_component_right{padding: 0;display: flex;flex-direction: column;flex-wrap: wrap;}
+      .Rant_component_right{padding: 0;display: flex;flex-direction: column;flex-wrap: wrap;}
 
 
   }
@@ -40,7 +40,7 @@
 
 @media only screen and (max-width: 480px) {
     .carousel-inner,#carouselExampleIndicators{width: 350px !important;text-align: center!important;margin-left: 12px;margin-right: 5px;}
-   .proposal_component_right{border:1px solid blue;;}
+   .Rant_component_right{border:1px solid blue;;}
    .carousel-control-prev-icon{margin-left: 22px!important;}
 
   }
@@ -49,7 +49,7 @@
 
 @media only screen and (max-width: 1105px) {
     .carousel-inner,#carouselExampleIndicators{text-align: center!important;margin-left: 12px;margin-right: 5px;}
-   .proposal_component_right{border:1px solid blue;;}
+   .Rant_component_right{border:1px solid blue;;}
    .carousel-control-prev-icon{margin-left: 22px!important;}
 
   }

@@ -8,7 +8,7 @@ function ProposalComponentRight() {
     return (
         <>
 
-         <div className="proposal_component_right">
+         <div className="Rant_component_right">
              <div>
              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">

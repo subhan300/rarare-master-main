@@ -1,10 +1,10 @@
-.proposalComponent_card_content{
+.RantComponent_card_content{
     display:flex;
     justify-content: space-around;
     padding:4px
     ; 
 }
-.proposalComponent_card{
+.RantComponent_card{
     background-color:lightgray;
     padding-top: 8px;
     padding:10px;
@@ -13,12 +13,12 @@
   
   
 }
-.proposal_component_card{
+.Rant_component_card{
     
    
 }
 
-.comments{
+.Rcomments{
     border:2px solid lightgray;
     display:flex;
     align-items: center;
@@ -26,39 +26,39 @@
 }
 
 
-.input_comment{
+.Rinput_comment{
     padding: 21px;width:85%;border:none
 }
 
-.input_comment:hover{
+.Rinput_comment:hover{
     border:none
 }
-.card_review_component{
+.Rcard_review_component{
    display:flex;
    justify-content: space-between;
    font-size: 0.8rem;
 }
 
-.card_content_component{
+.Rcard_content_component{
     padding-top: 22px;
     padding: 13px;
     justify-content: center;
     font-size:14px;
 }
 
-.card_review_component_text{
+.Rcard_review_component_text{
    margin-top: -12px;
 }
 
-.btn1:focus{
+.Rbtn1:focus{
 background-color: #45C1A1!important;color:white !important;
 }
-.btn_same2:focus{background-color: #45C1A1!important;color:white !important;}
-.btn_same:focus{
+.Rbtn_same2:focus{background-color: #45C1A1!important;color:white !important;}
+.Rbtn_same:focus{
     background-color: #45C1A1!important;color:white !important;
 }
 
-.btn_same,.btn1{
+.Rbtn_same,.btn1{
     width:130px
 }
 
@@ -66,26 +66,26 @@ background-color: #45C1A1!important;color:white !important;
 
 
 @media only screen and (max-width: 600px) {
-    .proposal_component_card{
+    .Rant_component_card{
     width:350px;font-size: 14px;height:370px;padding-bottom: 10px;
     }
-   .btn_same,.btn1{
+   .Rbtn_same,.btn1{
           width:80px!important;font-size: 11px!important;
    }
-.btn_same2{ width:97px!important;font-size: 11px!important;}
-   .icon_responsive{
+.Rbtn_same2{ width:97px!important;font-size: 11px!important;}
+   .Ricon_responsive{
        font-size: 17px!important;
        width:16px!important
    }
 
 
-   .input_comment{padding:20px!important;width:78%}
+   .Rinput_comment{padding:20px!important;width:78%}
 
    /* .responsive_send_icon{
        font-size: 12px!important;
    } */
 
-   .card_content_component{
+   .Rcard_content_component{
     overflow-y: scroll;
    }
   }

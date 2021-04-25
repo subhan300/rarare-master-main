@@ -6,7 +6,7 @@
    
 }
 
-.Proposal_content_left{
+.Rant_content_left{
     /* border:2px solid red; */
     flex:.5;
     display: flex;
@@ -16,37 +16,37 @@
     padding:30px;
     flex-wrap: wrap;
 }
-.Proposal_title{
+.Rant_title{
     text-align:start;
-    margin-left:120px;
+    /* margin-left:120px!important; */
 }
 
-.Proposal_left_title{
+.Rant_left_title{
     color:rgb(144, 155, 209);
     font-size:18px;
 }
 
-.Proposal_card{padding:20px;width:500px}
+.Rant_card{padding:20px;width:500px}
 
-.proposal_card_div{
+.Rant_card_div{
 /* text-align: end; */
 display: flex;
 justify-content: flex-end;
 }
 
-.card_content{
+.Rcard_content{
     display: flex;
     justify-content: space-between;
 
 }
 
 
-.Proposal_left_titleSpan{
+.Rant_left_titleSpan{
     font-size:18px;
     color:#45C1A1
 }
 
-.Proposal_content_right{
+.Rant_content_right{
     /* border:2px solid red; */
     flex:.5
 }
@@ -56,28 +56,28 @@ justify-content: flex-end;
   display:flex
 }
 
-.card_contentLast_row{
+.Rcard_contentLast_row{
     display:flex;
     justify-content: space-around;
     align-items: flex;
     padding-top: 10px;
 }
 
-.card_icon_space{
+.Rcard_icon_space{
     padding-left:4px;
 }
 
-.proposal_component_card{
+.Rant_component_card{
     /* border:2px solid green; */
     width:500px;
     padding:20px
 }
 
-.card_content_component{
+.Rcard_content_component{
     display: flex;flex-direction: column;
 }
 
-.proposal_component_main{
+.Rant_component_main{
     display:flex;
     /* border:2px solid green; */
     justify-content:flex-end;
@@ -85,18 +85,18 @@ justify-content: flex-end;
 }
 
 @media only screen and (max-width: 600px) {
-    .Proposal_card{
+    .Rant_card{
     width:340px;font-size: 14px;height:370px;padding-bottom: 10px;
     }
-    .Proposal_title{margin-left: 0;}
-    .text_size_responsive{font-size:11px!important}
-    .title_responsive{font-size:18px;}
+    .Rant_title{margin-left: 0;}
+    .Rtext_size_responsive{font-size:11px!important}
+    .Rtitle_responsive{font-size:18px;}
 
-    .icon_size_responsive{
+    .Ricon_size_responsive{
         font-size: 10px;color:red;width:13px
     }
 
-    .icon_size_responsiveuser{
+    .Ricon_size_responsiveuser{
         width:20px;
 
     }
